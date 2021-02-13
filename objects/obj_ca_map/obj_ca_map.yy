@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "YouTube Cellular Automata",
-    "path": "YouTube Cellular Automata.yyp",
+    "name": "Refesher Towel's CA",
+    "path": "folders/Refesher Towel's CA.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ca_map",

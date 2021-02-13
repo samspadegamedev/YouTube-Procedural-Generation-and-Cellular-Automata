@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_island_square","path":"objects/obj_island_square/obj_island_square.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Refesher Towel's CA",
-    "path": "folders/Refesher Towel's CA.yy",
+    "name": "CA Island",
+    "path": "folders/CA Island.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_square",
+  "name": "obj_island_square",
   "tags": [],
   "resourceType": "GMObject",
 }

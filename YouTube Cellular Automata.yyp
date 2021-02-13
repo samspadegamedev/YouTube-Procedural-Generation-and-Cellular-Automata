@@ -1,9 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"obj_square","path":"objects/obj_square/obj_square.yy",},"order":4,},
-    {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},"order":5,},
-    {"id":{"name":"obj_ca_map","path":"objects/obj_ca_map/obj_ca_map.yy",},"order":3,},
-    {"id":{"name":"cellular_automata_scripts","path":"scripts/cellular_automata_scripts/cellular_automata_scripts.yy",},"order":2,},
+    {"id":{"name":"obj_square","path":"objects/obj_square/obj_square.yy",},"order":3,},
+    {"id":{"name":"obj_island_square","path":"objects/obj_island_square/obj_island_square.yy",},"order":2,},
+    {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},"order":0,},
+    {"id":{"name":"obj_ca_map","path":"objects/obj_ca_map/obj_ca_map.yy",},"order":2,},
+    {"id":{"name":"ca_island_manager","path":"objects/ca_island_manager/ca_island_manager.yy",},"order":1,},
+    {"id":{"name":"rm_ca_island","path":"rooms/rm_ca_island/rm_ca_island.yy",},"order":0,},
+    {"id":{"name":"cellular_automata_scripts","path":"scripts/cellular_automata_scripts/cellular_automata_scripts.yy",},"order":1,},
+    {"id":{"name":"utility_script_file","path":"scripts/utility_script_file/utility_script_file.yy",},"order":2,},
     {"id":{"name":"rm_demo","path":"rooms/rm_demo/rm_demo.yy",},"order":1,},
   ],
   "Options": [
@@ -24,9 +28,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_ca_island","path":"rooms/rm_ca_island/rm_ca_island.yy",},},
     {"roomId":{"name":"rm_demo","path":"rooms/rm_demo/rm_demo.yy",},},
   ],
-  "Folders": [],
+  "Folders": [
+    {"folderPath":"folders/Refesher Towel's CA.yy","order":3,"resourceVersion":"1.0","name":"Refesher Towel's CA","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/CA Island.yy","order":4,"resourceVersion":"1.0","name":"CA Island","tags":[],"resourceType":"GMFolder",},
+  ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
